@@ -1,0 +1,51 @@
+.image-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .image {
+    width:600px;
+    height: 210px;
+    display: block;
+   
+    /* transition: transform 0.3s ease; */
+  }
+  
+  .text {
+    position: absolute;
+    top: 0;
+    width: 600px;
+    /* margin-right: 50px; Position text to the right side of the image */
+    background-color: rgba(253, 255, 254, 0.822); /* Semi-transparent background */
+    padding: 90px;
+    transition: transform 0.3s ease;
+  }
+  
+  .text h2 {
+    margin-top: 0;
+  }
+  
+  .text p {
+    margin-bottom: 0;
+  }
+  
+  .image-container:hover .image {
+    transform: scale(1.1); /* Example transform on hover */
+  }
+  
+  .image-container:hover .text {
+    transform: translateX(-100%);
+  }
+
+  .test{
+    width: 750px;
+    height: 300px;
+    margin-left: 300px;
+  }
+  
+  
+  
+  
+  
+  
