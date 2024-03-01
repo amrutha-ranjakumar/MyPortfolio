@@ -31,7 +31,7 @@
   }
   
   .image-container:hover .image {
-    transform: scale(1.1); /* Example transform on hover */
+    transform: scale(1.1); /*  transform on hover */
   }
   
   .image-container:hover .text {

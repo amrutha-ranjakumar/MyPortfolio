@@ -20,28 +20,29 @@ function Home() {
     };
     return (
         <>
-       <div className='mb-3 bg-white' style={{ width: "100%", height: "80vh" }}>
-                <div style={{ marginLeft: "100px" }}>
-                    <div className='container-fluid rounded mb-5'>
-                        <Row className='align-items-center justify-content-between  p-5 ' >
-                            <Col sm={12} md={6} lg={6}>
-                                <h2 className=' mb-2 ms-5 text-warning ' >I AM<span className='text-black'>  AMRUTHA Ranjakumar</span></h2>
-                                <h1 className='text-warning   ms-5  '>full stack developer</h1>
-                                <p className=' ms-5 text-black'>Hey there,I design and build high quality  web applications</p>
-                                <button className='btn btn-danger rounded mb-5 ms-5' onClick={handleDownload}>DOWNLOAD CV</button>
-                            </Col>
-                            <Col lg={6} md={6} >
-                                <img className='bg-black ms-5 homeimage1 ' src={homeImage} alt="" height={"400px"} marginBottom={"500px"} />
-                            </Col>
-                        </Row>
-                    </div>
+        
+      <div className='container   movie rounded p-5' style={{width:"2000px",marginTop:"100px"}} >
+      
+          <Row  >
+          <Col style={{ marginRight: "60px" }}>
+              <div className='d-flex mb-5'>
+                <div style={{ width: "100%" }} >
+                  <h1 className=' ms-4 mt-3  mb-2 ms-5 text-warning  ' >I AM<span className='text-dark'>  AMRUTHA </span><span className='text-dark'>Ranjakumar</span></h1>
+                  <h3 className='text-warning ms-5'>full stack developer</h3>
+                  <p className='text-dark ms-5 '>Hey there,I design and build high quality  web applications</p>
+                   <button className='btn btn-danger rounded mb-5 ms-5 ' onClick={ handleDownload}>DOWNLOAD CV</button>
                 </div>
-            </div>
-        <About />
-            <Skill />
-                 <Project />
-                        <Contact />
-         </>
+              </div>
+            </Col>
+            <Col>
+              <img className=' ' src={homeImage} alt="" style={{ width: "60%", height: "40vh", marginLeft: "100px", marginTop: "10px" , borderRadius: "120%"}}></img>
+            </Col>
+          </Row>
+    
+      </div>
+      <button className='border border-warning ' style={{  width: "1900px", marginLeft: "20px", marginTop: "100px" }}></button>
+   
+    </>
     );
 }
 export default Home;

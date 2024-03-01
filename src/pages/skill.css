@@ -1,3 +1,7 @@
+
 .movie:hover{
     transform: scale(1.05);
+}
+.fixed{
+    position: fixed;
 }

@@ -9,23 +9,23 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <>
-            <div>
+            <div className='nav1'>
                 <Row>
-                    <Navbar className=' bg-dark' data-bs-theme="warning" >
+                    <Navbar className=' bg-white' data-bs-theme="warning"  style={{width:"1600px"}}>
                         {/* <Container> */}
-                        <Col className=''>
-                            <Link to='/' style={{ textDecoration: "none", color: "white", fontSize: "25px" }}>
+                        <Col className='nav_imgage ms-5'>
+                            <Link to='/' style={{ textDecoration: "none", color: "white", fontSize: "40px" }}>
                                 <i class="fa-solid fa-briefcase text-warning ms-5"></i>
                             </Link>
                         </Col>
-                        <Col sm={12} md={6} lg={6} className=' side p-5 '>
+                        <Col  className=' side p-5 '>
                             <Nav className="me-auto  me-5   justify-content-end ">
-                             <Link to='/' className='me-5 ' style={{ textDecoration: "none", color: "white" }} href="#home">HOME</Link>
-                                <Link to='/about' className='me-5' style={{ textDecoration: "none", color: "white" }} href="#features">ABOUT</Link>
-                                <Link to='/skill' className='me-5' style={{ textDecoration: "none", color: "white" }} href="#pricing">SKILL</Link>
-                                <Link to='/project' className='me-5' style={{ textDecoration: "none", color: "white" }} href="#home">PROJECT</Link>
-                                <Link to='/education' className='me-5' style={{ textDecoration: "none", color: "white" }} href="#home">EDUCATION</Link>
-                                <Link to='/contact' className='me-5' style={{ textDecoration: "none", color: "white" }} href="#home">CONTACT</Link>
+                             <Link to='/' className='me-5 ' style={{ textDecoration: "none", color: "black",fontSize: "26px"  }} href="#home">HOME</Link>
+                                <Link to='/about' className='me-5' style={{ textDecoration: "none", color: "black",fontSize: "26px" }} href="#features">ABOUT</Link>
+                                <Link to='/skill' className='me-5' style={{ textDecoration: "none", color: "black",fontSize: "26px" }}  href="#pricing">SKILL</Link>
+                                <Link to='/project' className='me-5' style={{ textDecoration: "none", color: "black",fontSize: "26px" }}  href="#home">PROJECT</Link>
+                                <Link to='/education' className='me-5' style={{ textDecoration: "none", color: "black",fontSize: "26px" }}  href="#home">EDUCATION</Link>
+                                <Link to='/contact' className='me-5' style={{ textDecoration: "none", color: "black",fontSize: "26px" }}  href="#home">CONTACT</Link>
                             </Nav>
                         </Col>
                         {/* </Container> */}

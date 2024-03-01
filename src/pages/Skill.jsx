@@ -1,48 +1,64 @@
 import React from 'react'
-import { Col, Row } from 'react-bootstrap'
-import { useState } from 'react';
-import './skill.css'
 import image1 from '../assets/react4.png'
 import image2 from '../assets/javascript3.jpg'
 import image3 from '../assets/bootsrap.png'
 import image4 from '../assets/github.jpg'
 import image5 from '../assets/redux.png'
-import image6 from '../assets/expressjs1.png'
-import image7 from '../assets/Mongo-db 2.jpg'
+import image6 from '../assets/html.jpg'
 
 
 function Skill() {
- 
   return (
-
     <>
-      <div className='text-warning d-flex mb-5 ms-5 align-items-center justify-content-center'>
-        <h1>skills</h1>
+      <div>
+        <button className='border border-warning ' style={{ width: "1800px", marginTop: "30px" }}></button>
       </div>
-      <Row className='mb-5 ' style={{ marginRight: "70px" }}>
-        <div className='bg-white card shadow border-warning  movie' style={{ width: "130px", height: "70px", marginLeft: "300px" }} >
-          <img className='baground mt-2' src={image1} alt="" />
+      <div className='text-warning d-flex mb-5 p-5 '>
+        <h1 style={{ marginLeft: "600px" }}>Skill</h1>
+      </div>
+      <div className='container mb-5 p-5 fixed' style={{ marginLeft: "200px" }}>
+        <div className='row'>
+          <div className='col-md-3'>
+            <div class="card" >
+              <img src={image1} class="card-img-top" alt="..." />
+            </div>
+          </div>
+          <div className='col-md-3'>
+            <div class="card" >
+              <img src={image2} class="card-img-top" alt="..." />
+            </div>
+          </div>
+          <div className='col-md-3'>
+            <div class="card" >
+              <img src={image3} class="card-img-top" alt="..." />
+            </div>
+          </div>
         </div>
-        <div className='bg-white card shadow border-warning   movie' style={{ width: "130px", height: "70px", marginLeft: "100px" }} >
-          <img className='baground mt-2' src={image2} alt="" />
+      </div>
+      <div className='container fixed mb-2 p-5' style={{ marginLeft: "200px" }}>
+        <div className='row'>
+          <div className='col-md-3'>
+            <div class="card" >
+              <img src={image4} class="card-img-top" alt="..." />
+            </div>
+
+          </div>
+          <div className='col-md-3'>
+            <div class="card" >
+              <img src={image5} class="card-img-top" alt="..." />
+            </div>
+          </div>
+          <div className='col-md-3'>
+            <div class="card" >
+              <img src={image6} height={'140px'} class="card-img-top" alt="..." />
+            </div>
+          </div>
         </div>
-        <div className='bg-white card shadow border-warning  movie' style={{ width: "130px", height: "70px", marginLeft: "100px" }} >
-          <img className='baground mt-2 mb-3' src={image3} alt="" />
-        </div>
-        <div className='bg-white card shadow border-warning  movie ' style={{ width: "130px", height: "70px", marginLeft: "100px" }} >
-          <img className='baground mt-2 mb-3' src={image4} alt="" />
-        </div>
-        <div className='bg-white card shadow border-warning  movie ' style={{ width: "130px", height: "70px", marginLeft: "400px" }} >
-          <img className='baground mt-2 mb-5' src={image5} alt="" />
-        </div>
-        <div className='bg-white card shadow border-warning  movie ' style={{ width: "130px", height: "70px", marginLeft: "110px" }} >
-          <img className='baground mt-2 mb-5' src={image6} alt="" />
-        </div>
-        <div className='bg-white card shadow border-warning  movie ' style={{ width: "130px", height: "70px", marginLeft: "110px" }} >
-          <img className='baground mt-2 mb-5' src={image7} alt="" height={'150px'} width={'105px'} />
-        </div>
-      </Row>
+      </div>
+
     </>
+
+
   )
 }
 

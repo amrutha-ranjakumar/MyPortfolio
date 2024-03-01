@@ -3,6 +3,9 @@ import React from 'react'
 function Education() {
   return (
     <>
+     <div>
+        <button className='border border-warning ' style={{ width: "1800px", marginTop: "70px" }}></button>
+      </div>
       <div className='text-warning d-flex mb-5 ms-5 mt-5 align-items-center justify-content-center'>
         <h1>Education</h1>
       </div>
