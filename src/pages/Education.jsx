@@ -22,7 +22,7 @@ function Education() {
                 <Card.Body>
 
                   <br />
-                  <h5 className='text-warning' style={{ textAlign: "center" }}>Tharananellur Arts And Science Collage</h5>
+                  <h5 className='text-warning' style={{ textAlign: "center" }}>Tharananellur Arts And Science College</h5>
                   <br />
                   <h9 style={{ marginLeft: "20px" }}>Bachelor of computer Application</h9>
                   <br />

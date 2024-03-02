@@ -24,14 +24,15 @@ function Skill() {
          
         </div>
         <div className='text-warning d-flex mb-5 p-5 '>
-          <h1 style={{ marginLeft: "500px" ,marginTop:"100px"}}>Skill</h1>
+          <h1 style={{ marginLeft: "500px" ,marginTop:"100px"}}>Skills</h1>
+    
         </div>
         <div className='container mb-5 p-3 fixed' style={{ marginLeft: "100px" }}>
           <div className='row '>
-
+        
             <Row  >
               <Col >
-                <Card className='card shadow mt-5' style={{ width: '30rem', padding: "90px" }}>
+                <Card className='card shadow border border-warning movie mt-5' style={{ width: '30rem', padding: "90px" }}>
                   <Card.Img variant="top" src={image1} height={'180px'} />
                   <Card.Body>
                     <Card.Title>React js</Card.Title>
@@ -40,7 +41,7 @@ function Skill() {
               </Col>
 
               <Col>
-                <Card className='card shadow mt-5' style={{ width: '30rem', padding: "90px" }}>
+                <Card className='card shadow border border-warning  movie mt-5' style={{ width: '30rem', padding: "90px" }}>
                   <Card.Img variant="top" src={image2} height={'180px'} />
                   <Card.Body>
                     <Card.Title>Html</Card.Title>
@@ -48,7 +49,7 @@ function Skill() {
                 </Card>
               </Col>
               <Col>
-                <Card className='card shadow mt-5' style={{ width: '30rem', padding: "90px" }}>
+                <Card className='card shadow border border-warning movie mt-5' style={{ width: '30rem', padding: "90px" }}>
                   <Card.Img variant="top" src={image3} height={'180px'} />
                   <Card.Body>
 
@@ -57,7 +58,7 @@ function Skill() {
                 </Card>
               </Col>
               <Col>
-                <Card className='card shadow mt-5' style={{ width: '30rem', padding: "90px" }}>
+                <Card className='card shadow border border-warning mt-5 movie' style={{ width: '30rem', padding: "90px" }}>
                   <Card.Img variant="top" src={image4} height={'180px'} />
                   <Card.Body>
                     <Card.Title>Github</Card.Title>
@@ -65,7 +66,7 @@ function Skill() {
                 </Card>
               </Col>
               <Col>
-                <Card className='card shadow mt-5' style={{ width: '30rem', padding: "90px" }}>
+                <Card className='card shadow border border-warning mt-5 movie' style={{ width: '30rem', padding: "90px" }}>
                   <Card.Img variant="top" src={image5} height={'180px'} />
                   <Card.Body>
                     <Card.Title>css</Card.Title>
@@ -73,7 +74,7 @@ function Skill() {
                 </Card>
               </Col>
               <Col>
-                <Card className='card shadow mt-5' style={{ width: '30rem', padding: "90px" }}>
+                <Card className='card shadow  border border-warning mt-5 movie' style={{ width: '30rem', padding: "90px" }}>
                   <Card.Img variant="top" src={image6} height={'180px'} />
                   <Card.Body>
                     <Card.Title>Redux</Card.Title>
@@ -81,7 +82,7 @@ function Skill() {
                 </Card>
               </Col>
               <Col>
-                <Card className='card shadow mt-5' style={{ width: '30rem', padding: "90px" }}>
+                <Card className='card shadow border border-warning mt-5 movie' style={{ width: '30rem', padding: "90px" }}>
                   <Card.Img variant="top" src={image7} height={'180px'} />
                   <Card.Body>
                     <h9 style={{ fontSize: "16px" }}>MongoDB</h9>
@@ -89,7 +90,7 @@ function Skill() {
                 </Card>
               </Col>
               <Col>
-                <Card className='card shadow mt-5' style={{ width: '30rem', padding: "90px" }}>
+                <Card className='card shadow border border-warning mt-5 movie' style={{ width: '30rem', padding: "90px" }}>
                   <Card.Img variant="top" src={image8} height={'180px'} />
                   <Card.Body>
                     <Card.Title>Nodejs</Card.Title>
