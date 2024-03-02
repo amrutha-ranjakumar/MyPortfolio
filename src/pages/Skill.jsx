@@ -24,7 +24,7 @@ function Skill() {
          
         </div>
         <div className='text-warning d-flex mb-5 p-5 '>
-          <h1 style={{ marginLeft: "500px" ,marginTop:"500px"}}>Skill</h1>
+          <h1 style={{ marginLeft: "500px" ,marginTop:"100px"}}>Skill</h1>
         </div>
         <div className='container mb-5 p-3 fixed' style={{ marginLeft: "100px" }}>
           <div className='row '>
