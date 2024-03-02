@@ -9,15 +9,16 @@ function About() {
   return (
     <>
     
-      <div className='text-warning mb-5'>
+      <div className='text-warning mb-5 mt-5'>
         <h1 style={{ marginLeft: "900px" }}>About</h1>
       </div>
       
 
-      <div className='container card shadow border-warning  mb-5 mt-2 border border-2 border-secondary movie rounded p-3'>
+      < div className='mb-5  mb-5  card shadow bg-white movie ' style={{ width: "60%", height: "400px", marginLeft: "300px", marginTop: "100px" }}>
+        <div className='container-fluid rounded'>
         <Row  >
           <Col>
-            <img className=' ' src={aboutImage} alt="" style={{ width: "70%", height: "40vh", marginLeft: "60px", marginTop: "50px", borderRadius: "120%" }}></img>
+            <img className='mb-5 mt-5 ' src={aboutImage} alt="" style={{ width: "70%", height: "30vh", marginLeft: "60px", marginTop: "50px", borderRadius: "120%" }}></img>
           </Col>
           <Col style={{ marginRight: "60px" }}>
             <div className='d-flex mb-5'>
@@ -30,6 +31,7 @@ function About() {
           </Col>
         </Row>
 
+      </div>
       </div>
       
      
