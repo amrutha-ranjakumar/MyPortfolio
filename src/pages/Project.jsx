@@ -13,14 +13,12 @@ const Project = () => {
   return (
     <>
     
-      <div>
-        <button className='border border-warning ' style={{ width: "1700px", marginTop: "70px" }}></button>
-      </div>
+      
       <div className='text-warning d-flex mb-4 '>
-        <h1 style={{marginLeft:"800px"}}>Projects</h1>
+        <h1 style={{marginLeft:"700px"}}>Projects</h1>
       </div>
-      <div className='d-flex justify-align-center align-items-center'>
-      <div className='bg-white ' style={{ height: "1000px", marginBottom: "300px",marginLeft:'70px' }}>
+      <div className='d-flex justify-align-center align-items-center'  style={{ width:"10%" ,marginBottom: "100px",marginLeft:'50px' }}>
+      <div className='bg-white ' style={{ height: "1000px", marginBottom: "300px",marginLeft:'50px' }}>
        
         <div className='bg-white card shadow p-5 border-warning  mb-5 mt-5 test movie' style={{height:"400px",width:"700px"}}>
         <h5  style={{marginLeft:"250px",color:"orange"}}>Neflix Clone</h5>

@@ -11,7 +11,7 @@ function Header() {
         <>
             <div className='nav1'>
                 <Row>
-                    <Navbar className=' bg-white' data-bs-theme="warning"  style={{width:"1600px"}}>
+                    <Navbar className=' bg-white' data-bs-theme="warning"  style={{width:"1400px"}}>
                         {/* <Container> */}
                         <Col className='nav_imgage ms-5'>
                             <Link to='/' style={{ textDecoration: "none", color: "white", fontSize: "40px" }}>
@@ -19,7 +19,7 @@ function Header() {
                             </Link>
                         </Col>
                         <Col  className=' side p-5 '>
-                            <Nav className="me-auto  me-5   justify-content-end ">
+                            <Nav className=" ms-5 ">
                              <Link to='/' className='me-5 ' style={{ textDecoration: "none", color: "black",fontSize: "26px"  }} href="#home">HOME</Link>
                                 <Link to='/about' className='me-5' style={{ textDecoration: "none", color: "black",fontSize: "26px" }} href="#features">ABOUT</Link>
                                 <Link to='/skill' className='me-5' style={{ textDecoration: "none", color: "black",fontSize: "26px" }}  href="#pricing">SKILL</Link>
