@@ -3,13 +3,14 @@ import React from 'react'
 function Education() {
   return (
     <>
-     <div>
-        <button className='border border-warning ' style={{ width: "1800px", marginTop: "70px" }}></button>
+      <div>
+        <button className='border border-warning ' style={{ width: "1750px", marginTop: "20px" }}></button>
       </div>
-      <div className='text-warning d-flex mb-5 ms-5 mt-5 align-items-center justify-content-center'>
-        <h1>Education</h1>
+      <div className='d-flex  mb-5 justify-align-center align-items-center'>
+
+        <h1 style={{ marginLeft: "700px", color: "orange" }}>Projects</h1>
       </div>
-      <div className='bg-white card shadow border border-warning movie mt-5 mb-5 ' style={{ width: "1200px", height: "290px", marginLeft: "100px" }}>
+      <div className='bg-white card shadow border border-warning movie mt-5 mb-5 ' style={{ width: "1200px", height: "300px", marginLeft: "200px" }}>
         <h4 className='text-warning' style={{ marginLeft: "300px", marginTop: "10px" }}><i class="fa-solid fa-bullseye"></i> BACHELOR OF COMPUTER APPLICATION 2020-2023</h4>
         <h7 style={{ marginLeft: "400px", marginTop: "10px" }}>University of Calicut
         </h7>
@@ -22,6 +23,7 @@ function Education() {
         </h4>
         <h6 style={{ marginLeft: "400px", marginTop: "10px" }}>Sreekrisha higher secondary school Anandapuram, Thrissur</h6>
       </div>
+
     </>
   )
 }
