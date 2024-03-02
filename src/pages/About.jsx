@@ -2,37 +2,90 @@ import React from 'react'
 import aboutImage from '../assets/cartoon4.jpg'
 import { Button, Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import './about.css'
 
 
 
 function About() {
   return (
     <>
-  
-  <div className='text-warning d-flex mb-3 '>
-        <h1 style={{marginLeft:"800px"}}>About</h1>
-      </div>
-    
-    < div className='mb-5  mb-5  card shadow bg-white movie ' style={{ width: "60%", height: "400px", marginLeft: "300px", marginTop: "100px" }}>
-        <div className='container-fluid rounded'>
-
-  <Row  >
-            <Col>
-              <img className=' ' src={aboutImage} alt="" style={{ width: "60%", height: "35vh", marginLeft: "60px", marginTop: "50px" , borderRadius: "120%"}}></img>
-            </Col>
-            <Col style={{ marginRight: "60px" }}>
-              <div className='d-flex mb-5'>
-                <div style={{ width: "100%", height: "100vh" }} >
-                  <h3 className=' ms-4 mt-5  mb-4 me-5 text-warning  ' >I AM<span className='text-dark'>  AMRUTHA </span><span className='text-dark'>Ranjakumar</span></h3>
-                  <p className='text-dark '>As a dedicated learner and aspiring MERN Stack Developer Intern, I am deeply committed to crafting innovative web solutions. I am a self-motivated individual with a strong passion for web development. My skillset includes proficiency in HTML, CSS, React, Bootstrap, JavaScript, and Git. I am eager to apply these skills to create impactful and dynamic web applications.</p>
-                  <p className='text-dark mt-4'>....................................................................................................................................</p>
+ 
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>About</h2>
+            <p>About Me</p>
+          </div>
+          <div class="row">
+            <div class="about-content p15">
+              <div class="row mb-5">
+                <div class="about-text p15">
+                  <p>
+                
+As a dedicated learner and aspiring MERN Stack Developer Intern, I am deeply committed to crafting innovative web solutions. I am a self-motivated individual with a strong passion for web development. My skillset includes proficiency in HTML, CSS, React, Bootstrap, JavaScript, and Git. I am eager to apply these skills to create impactful and dynamic web applications.
+                  </p>
                 </div>
               </div>
-            </Col>
-          </Row>
+              </div>
+                   
+            
+          
+          
+              <div class="row">
+                <div class="education p15">
+                  <h3 class="title mb-2 ">Education</h3>
+                  <div class="row">
+                    <div class="timeline-box p15 mb-5">
+                      <div class="timeline shadow ">
+                     
 
-          </div>
-          </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date">
+                            <i class="fa fa-calendar"></i>   2020 - 2023
+                          </h6>
+                          <h4 class="timeline-title">
+                       Bachelore Of Computer Application
+                          </h4>
+                          <p class="timeline-text">
+                            Tharananellur Arts And science College
+                            University of Calicut
+                          </p>
+                        </div>
+                       
+
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h6 class="timeline-date">
+                            <i class="fa fa-calendar"></i>   2018 - 2019
+                          </h6>
+                          <h4 class="timeline-title">Computer Science</h4>
+                          <p class="timeline-text">
+                          G.M.G.H.S.S Irinjalakuda, Thrissur
+                          </p>
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                    </div>
+                 
+                       
+</div>
+                
+              </section>
+             
+                     
+
+                     
+                     
+                       
+                  
+             
+
+     
       
        
 

@@ -14,11 +14,11 @@ const Project = () => {
     <>
     
       
-      <div className='text-warning d-flex mb-4 '>
-        <h1 style={{marginLeft:"700px"}}>Projects</h1>
+      <div className='text-warning d-flex mb-5 '>
+        <h1 className='mt-5' style={{marginLeft:"900px"}}>Projects</h1>
       </div>
-      <div className='d-flex justify-align-center align-items-center'  style={{ width:"10%" ,marginBottom: "100px",marginLeft:'50px' }}>
-      <div className='bg-white ' style={{ height: "1000px", marginBottom: "300px",marginLeft:'50px' }}>
+      <div className='d-flex justify-align-center align-items-center'  style={{ width:"10%" ,marginBottom: "100px",marginLeft:'100px' }}>
+      <div className='bg-white ' style={{ height: "1000px", marginBottom: "300px",marginLeft:'200px' }}>
        
         <div className='bg-white card shadow p-5 border-warning  mb-5 mt-5 test movie' style={{height:"400px",width:"700px"}}>
         <h5  style={{marginLeft:"250px",color:"orange"}}>Neflix Clone</h5>
@@ -26,7 +26,7 @@ const Project = () => {
           <div className="image-container  ">
             <img src={project1} alt="Your Image" className="image"  />
             <div className="text">
-              <h2  style={{ marginBottom: "300px", marginLeft: "70px" }} > Netflix Clone</h2>
+              <h2  style={{ marginBottom: "300px", marginLeft: "110px" }} > Netflix Clone</h2>
             
             </div>
           </div>

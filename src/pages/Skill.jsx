@@ -30,7 +30,7 @@ function Skill() {
           <div className='row '>
 
             <Row  >
-              <Col lassName='col-md-3'>
+              <Col >
                 <Card className='card shadow mt-5' style={{ width: '30rem', padding: "90px" }}>
                   <Card.Img variant="top" src={image1} height={'180px'} />
                   <Card.Body>
