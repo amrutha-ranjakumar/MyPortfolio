@@ -11,13 +11,15 @@ function About() {
       <div>
         <button className='border border-warning ' style={{ width: "2000px", marginTop: "70px" }}></button>
       </div>
-      <div className='text-warning d-flex mb-5  mt-5'>
+      <div className='text-warning mb-5'>
         <h1 style={{ marginLeft: "900px" }}>About</h1>
       </div>
+      
+        <div style={{marginLeft:"200px"}} className='d-flex justify-align-center align-items-center'>
       <div className='container card shadow border-warning mb-5 mt-2 border border-2 border-secondary movie rounded p-5'>
         <Row  >
           <Col>
-            <img className=' ' src={aboutImage} alt="" style={{ width: "60%", height: "40vh", marginLeft: "60px", marginTop: "50px", borderRadius: "120%" }}></img>
+            <img className=' ' src={aboutImage} alt="" style={{ width: "70%", height: "30vh", marginLeft: "60px", marginTop: "50px", borderRadius: "120%" }}></img>
           </Col>
           <Col style={{ marginRight: "60px" }}>
             <div className='d-flex mb-5'>
@@ -31,7 +33,9 @@ function About() {
         </Row>
 
       </div>
-      <button className='border border-warning ' style={{ width: "1900px", marginLeft: "20px", marginTop: "100px" }}></button>
+      </div>
+     
+      <button className='border border-warning ' style={{ width: "1200px", marginLeft: "20px", marginTop: "100px" }}></button>
     </>
   )
 }
