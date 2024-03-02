@@ -15,10 +15,10 @@ const Project = () => {
     
       
       <div className='text-warning d-flex mb-5 '>
-        <h1 className='mt-5' style={{marginLeft:"900px"}}>Projects</h1>
+        <h1 className='mt-5' style={{marginLeft:"600px"}}>Projects</h1>
       </div>
-      <div className='d-flex justify-align-center align-items-center'  style={{ width:"10%" ,marginBottom: "100px",marginLeft:'100px' }}>
-      <div className='bg-white ' style={{ height: "1000px", marginBottom: "300px",marginLeft:'200px' }}>
+      <div className='d-flex justify-align-center align-items-center' style={{ width:"10%" ,marginBottom: "100px",marginLeft:'20px' }}>
+      <div className='bg-white ' style={{ height: "1000px", marginBottom: "300px",marginLeft:'10px' }}>
        
         <div className='bg-white card shadow p-5 border-warning  mb-5 mt-5 test movie' style={{height:"400px",width:"700px"}}>
         <h5  style={{marginLeft:"250px",color:"orange"}}>Neflix Clone</h5>

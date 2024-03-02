@@ -11,7 +11,7 @@ function Header() {
         <>
             <div className='nav1'>
                 <Row>
-                    <Navbar className='bg-dark' data-bs-theme="warning"  style={{width:'2000px'}}>
+                    <Navbar className='bg-white' data-bs-theme="warning"  style={{width:'px'}}>
                         {/* <Container> */}
                         <Col className='nav_imgage ms-5'>
                             <Link to='/' style={{ textDecoration: "none", color: "white", fontSize: "40px" }}>
@@ -20,12 +20,12 @@ function Header() {
                         </Col>
                         <Col  className=' side p-5 d-flex '>
                             <Nav  style={{marginLeft:"800px"}}>
-                             <Link to='/' className='me-5 ' style={{ textDecoration: "none", color: "white",fontSize: "26px"  }} href="#home">HOME</Link>
-                                <Link to='/about' className='me-5' style={{ textDecoration: "none", color: "white",fontSize: "26px" }} href="#features">ABOUT</Link>
-                                <Link to='/skill' className='me-5' style={{ textDecoration: "none", color: "white",fontSize: "26px" }}  href="#pricing">SKILL</Link>
-                                <Link to='/project' className='me-5' style={{ textDecoration: "none", color: "white",fontSize: "26px" }}  href="#home">PROJECT</Link>
-                                <Link to='/education' className='me-5' style={{ textDecoration: "none", color: "white",fontSize: "26px" }}  href="#home">EDUCATION</Link>
-                                <Link to='/contact' className='me-5' style={{ textDecoration: "none", color: "white",fontSize: "26px" }}  href="#home">CONTACT</Link>
+                             <Link to='/' className='me-5 ' style={{ textDecoration: "none", color: "black",fontSize: "26px"  }} href="#home">HOME</Link>
+                                <Link to='/about' className='me-5' style={{ textDecoration: "none", color: "black",fontSize: "26px" }} href="#features">ABOUT</Link>
+                                <Link to='/skill' className='me-5' style={{ textDecoration: "none", color: "black",fontSize: "26px" }}  href="#pricing">SKILL</Link>
+                                <Link to='/project' className='me-5' style={{ textDecoration: "none", color: "black",fontSize: "26px" }}  href="#home">PROJECT</Link>
+                                <Link to='/education' className='me-5' style={{ textDecoration: "none", color: "black",fontSize: "26px" }}  href="#home">EDUCATION</Link>
+                                <Link to='/contact' className='me-5' style={{ textDecoration: "none", color: "black",fontSize: "26px" }}  href="#home">CONTACT</Link>
                             </Nav>
                         </Col>
                         {/* </Container> */}

@@ -25,7 +25,7 @@ export const Contact = () => {
 
   return (
     <div className='d-flex justify-align-center align-items-center'>
-      <form ref={form} onSubmit={sendEmail} style={{ marginLeft: "300px" }}>
+      <form ref={form} onSubmit={sendEmail} style={{ marginLeft: "100px" }}>
         <div className='border border-warning card  bg-dark shadow movie mt-5 mb-5 p-5' style={{ width: "1100px" }}>
           <Row className='bg-dark'>
             <Col>
